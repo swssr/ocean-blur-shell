@@ -1,0 +1,63 @@
+@import url('/usr/share/gnome-shell/theme/gnome-shell.css');
+
+#dash .placeholder {
+  height: 64px;
+}
+#dash .empty-dash-drop-target {
+  width: 32px;
+  height: 32px;
+}
+#dash .overview-icon {
+  padding: 5px;
+}
+
+#overviewGroup {
+  background-image: url('bg_blur.png');
+  background-size: cover;
+}
+
+.dash-item-container {
+  transform: scale(0.5);
+}
+.dash-item-container .app-well-app,
+.show-apps {
+  padding: 10px 1.5px 26px;
+}
+
+.dash-background {
+  background-color: rgba(20, 20, 20, 0.5);
+  margin-bottom: 16px;
+  margin-top: 0px;
+  padding: 8px;
+  border-radius: 56px;
+}
+
+.dash-separator {
+  width: 1px;
+  margin: 0 6.5px 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#panel {
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: normal;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+#panel .panel-corner {
+  -panel-corner-radius: 9px;
+  -panel-corner-background-color: #000;
+  -panel-corner-background-color: rgba(0, 0, 0, 0);
+  -panel-corner-border-width: 2px;
+  -panel-corner-border-color: transparent;
+  -panel-corner-opacity: 1;
+  transition-duration: 400ms;
+}
+.app-folder-dialog .folder-name-container .edit-folder-button:hover,
+.button:hover {
+  color: #eeeeec;
+  background-color: #424242;
+  border-color: #2b2b2b;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
+}
